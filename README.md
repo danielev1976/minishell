@@ -67,3 +67,29 @@ non-blocking execution
 process management
 7. Signal handling (optional but powerful)
 Handle Ctrl+C using signal() or sigaction()
+
+Suggested structure
+mini-shell/
+├── main.c
+├── parser.c
+├── executor.c
+├── builtins.c
+├── utils.c
+└── Makefile
+🔧 Tools to use
+Compiler: gcc
+Debugger: GDB
+Memory checker: Valgrind
+🏁 Stretch goals (if you want a challenge)
+Command history (like arrow keys)
+Tab autocomplete
+Environment variables ($PATH)
+Job control (fg, bg)
+💡 Alternative project ideas (if this feels too big)
+
+If you want something easier or different:
+
+File search tool (like a mini find)
+Custom text editor (very hard, but rewarding)
+System monitor (like a mini top)
+HTTP server in C
